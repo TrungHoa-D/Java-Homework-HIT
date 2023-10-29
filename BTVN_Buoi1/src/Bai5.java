@@ -11,7 +11,26 @@ public class Bai5 {
             y=x-y;
             x=x-y;
         }
-        for(int i=1;i<=3;i++)
+        {
+            int a=sc.nextInt();
+            if(a>x) {
+                y=x;
+                x=a;
+            }
+            else if(a<=x && a>y) {
+                y=a;
+            }
+        }
+        {
+            int a=sc.nextInt();
+            if(a>x) {
+                y=x;
+                x=a;
+            }
+            else if(a<=x && a>y) {
+                y=a;
+            }
+        }
         {
             int a=sc.nextInt();
             if(a>x) {
