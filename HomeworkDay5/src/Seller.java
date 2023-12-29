@@ -67,7 +67,11 @@ public class Seller {
         System.out.print("Nhập số điện thoại: ");phoneNumber=sc.nextLine();
     }
     public void output() {
+<<<<<<< HEAD
         System.out.println("---------------------------------------");
+=======
+        System.out.println("----------------------------------------------------------------");
+>>>>>>> origin/main
         System.out.println("Tên người bán: "+name);
         System.out.println("Mã số thuế: "+mst);
         System.out.println("Địa chỉ: "+diaChi);
